@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>David Reyes Designs | Portafolio</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+
+<header class="hero" id="inicio" style="background-image: url('./assets/banner_v2_fondo.jpg');">
+  
+  <nav class="topbar">
+    <a class="brand" href="#inicio">
+      <img src="./assets/logo_blanco.png">
+    </a>
+
+    <div class="nav-links">
+      <a href="#portafolio">Portafolio</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#contacto">Contacto</a>
+    </div>
+  </nav>
+
+  <div class="hero-overlay">
+    <div class="hero-content">
+
+      <section class="hero-copy">
+        <h1>Diseño que eleva tu marca</h1>
+
+        <p class="hero-text">
+          Branding, dirección visual y piezas diseñadas con una estética limpia, editorial y premium.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="#portafolio">Ver trabajos</a>
+          <a class="button button-secondary" href="#contacto">Solicitar diseño</a>
+        </div>
+      </section>
+
+    </div>
+  </div>
+</header>
+
+<div class="page-frame">
+
+<main>
+
+<section class="section statement">
+  <p>
+    Una identidad visual fuerte no solo se ve bien: comunica valor, estilo y personalidad.
+  </p>
+</section>
+
+<section class="section portfolio-section" id="portafolio">
+  <div class="section-heading">
+    <p class="eyebrow">Portafolio</p>
+    <h2>Diseño visual con una dirección más limpia, editorial y memorable.</h2>
+  </div>
+
+  <div class="portfolio-grid">
+    <article class="portfolio-card featured-card">
+      <span class="card-label">Identidad visual</span>
+      <h3>Branding con estilo distinguido</h3>
+      <p>Logos, líneas gráficas y sistemas visuales hechos para elevar la percepción de marca.</p>
+    </article>
+
+    <article class="portfolio-card image-card">
+      <img src="./assets/banner_v2.jpg">
+    </article>
+
+    <article class="portfolio-card">
+      <span class="card-number">01</span>
+      <h3>Social media design</h3>
+      <p>Piezas con composición fuerte y estética coherente.</p>
+    </article>
+
+    <article class="portfolio-card">
+      <span class="card-number">02</span>
+      <h3>Publicidad visual</h3>
+      <p>Diseños para campañas con presencia premium.</p>
+    </article>
+
+    <article class="portfolio-card">
+      <span class="card-number">03</span>
+      <h3>Editorial y presentación</h3>
+      <p>Material visual con narrativa clara y elegante.</p>
+    </article>
+  </div>
+</section>
+
+<section class="section services-section" id="servicios">
+  <div class="section-heading">
+    <p class="eyebrow">Servicios</p>
+    <h2>Servicios enfocados en elevar tu marca.</h2>
+  </div>
+
+  <div class="services-grid">
+    <article class="service-card">
+      <h3>Logo y branding</h3>
+      <p>Creación completa de identidad visual.</p>
+    </article>
+
+    <article class="service-card">
+      <h3>Contenido visual</h3>
+      <p>Diseño para redes y promociones.</p>
+    </article>
+
+    <article class="service-card">
+      <h3>Piezas impresas</h3>
+      <p>Flyers, posters y materiales físicos.</p>
+    </article>
+  </div>
+</section>
+
+</main>
+
+<footer class="section footer" id="contacto">
+  <div class="footer-box">
+    <div class="footer-brand">      
+      <div>
+        <p class="eyebrow">Contacto</p>
+        <h2>David Reyes Designs</h2>
+      </div>
+    </div>
+    <div class="footer-links">
+      <a href="mailto:lidereyesig15@gmail.com">lidereyesig15@gmail.com</a>
+      <a href="https://wa.link/x4l5lf">+52 9811471135</a>
+    </div>
+  </div>
+</footer>
+
+</div>
+
+<script>
+window.addEventListener("scroll", () => {
+  const nav = document.querySelector(".topbar");
+  nav.classList.toggle("scrolled", window.scrollY > 50);
+});
+</script>
+
+</body>
+</html>
