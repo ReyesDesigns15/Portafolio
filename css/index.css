@@ -225,11 +225,16 @@ a {
   transform: translateY(-5px);
   background: var(--panel-strong);
 }
+
+.eyebrow {
+  align-items: center;
+}
+
 /* FOOTER */
-.footer-brand {
+.section-footer {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   gap: 40px;
 }
 
